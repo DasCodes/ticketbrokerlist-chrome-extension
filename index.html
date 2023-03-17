@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Metadata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toast">
+            <p class="toast-text">This is a toast text.</p>
+        </div>
+        <div class="apikey-form">
+            <form>
+                <input id="userApiKey" type="text" placeholder="Enter API key">
+                <input id="submitBtn" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="data">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Country Code</th>
+                        <th>Flag</th>
+                        <th>IP</th>
+                        <th>Network</th>
+                        <th>Timezone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="country"></td>
+                        <td id="countryCode"></td>
+                        <td id="flag"></td>
+                        <td id="ip"></td>
+                        <td id="network"></td>
+                        <td id="timezone"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

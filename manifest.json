@@ -1,0 +1,17 @@
+{
+  "name": "Website Metadata",
+  "version": "0.1.0",
+  "description": "An extension that gets metadata of an IP.",
+  "manifest_version": 3,
+  "author": "DasCodes",
+  "homepage_url": "https://github.com/DasCodes",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Website Metadata"
+  }
+}
